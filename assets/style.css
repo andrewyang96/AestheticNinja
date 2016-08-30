@@ -1,11 +1,11 @@
 html {
-  background: #303030;
+  background: #404040;
   overflow-x: hidden; /* Disable horizontal scrollbar when ninja runs across. */
   font-family: 'Josefin Slab', serif;
 }
 
 #curtains {
-  background: #303030;
+  background: #404040;
   width: 100vw;
   height: 100vh;
   color: pink;
