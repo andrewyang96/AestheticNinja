@@ -68,6 +68,15 @@ html {
   }
 }
 
+@keyframes yang-in {
+  0%, 80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 #slashes {
   margin-left: auto;
   margin-right: auto;
@@ -94,6 +103,7 @@ html {
   border-radius: 20px;
   padding: 20px;
   color: lightgray;
+  animation: yang-in 2.5s linear 0s 1 normal;
 }
 
 #face {
