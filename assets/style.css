@@ -6,61 +6,61 @@ html {
 
 @keyframes slash {
   /* First slash */
-  0% {
+  10% {
     background-image: url('./img/a1.png');
   }
-  2% {
+  12% {
     background-image: url('./img/a2.png');
   }
-  4% {
+  14% {
     background-image: url('./img/a3.png');
   }
-  6% {
+  16% {
     background-image: url('./img/a4.png');
   }
-  8% {
+  18% {
     background-image: url('./img/a5.png');
   }
-  10% {
+  20% {
     background-image: none;
   }
   
   /* Second slash */
-  15% {
+  25% {
     background-image: url('./img/b1.png');
   }
-  16% {
+  26% {
     background-image: url('./img/b2.png');
   }
-  17% {
+  27% {
     background-image: url('./img/b3.png');
   }
-  19% {
+  29% {
     background-image: url('./img/b4.png');
   }
-  21% {
+  31% {
     background-image: url('./img/b5.png');
   }
-  23% {
+  33% {
     background-image: url('./img/b6.png');
   }
-  24% {
+  34% {
     background-image: url('./img/b7.png');
   }
-  25% {
+  35% {
     background-image: none;
   }
 }
 
 @keyframes run {
-  35% {
+  45% {
     display: normal;
     left: -223px;
   }
-  35%, 45%, 55%, 65%, 75% {
+  45%, 55%, 65%, 75% {
     transform: translateY(0);
   }
-  40%, 50%, 60%, 70% {
+  50%, 60%, 70% {
     transform: translateY(-100px);
   }
   75%, 100% {
