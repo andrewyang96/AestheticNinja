@@ -4,6 +4,12 @@ html {
   font-family: 'Josefin Slab', serif;
 }
 
+#curtains {
+  background: #303030;
+  width: 100vw;
+  height: 100vh;
+}
+
 @keyframes slash {
   /* First slash */
   10% {
