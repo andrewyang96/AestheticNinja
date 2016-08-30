@@ -11,6 +11,11 @@ html {
   color: pink;
 }
 
+#non-chrome-warning {
+  color: pink;
+  display: none;
+}
+
 @keyframes slash {
   /* First slash */
   10% {
@@ -85,6 +90,11 @@ html {
 }
 
 #slashes {
+  background-size: cover;
+  animation: slash 2.5s linear 0s 1 normal;
+}
+
+.card-container {
   margin-left: auto;
   margin-right: auto;
   width: 1280px;
@@ -93,9 +103,6 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  background-size: cover;
-  animation: slash 2.5s linear 0s 1 normal;
 }
 
 #ninja {
@@ -106,30 +113,33 @@ html {
 }
 
 #yangmaster {
+  animation: yang-in 2.5s linear 0s 1 normal;
+}
+
+.card {
   border: 6px solid white;
   border-radius: 20px;
   padding: 20px;
   text-align: center;
   color: lightgray;
-  animation: yang-in 2.5s linear 0s 1 normal;
 }
 
-#yangmaster h1 {
+.card h1 {
   font-size: 40px;
 }
 
-#yangmaster h2 {
+.card h2 {
   font-size: 28px;
 }
 
-#yangmaster .fa {
+#contacts .fa {
   font-size: 48px;
   padding: 8px;
   color: white;
   transition: color 0.4s ease;
 }
 
-#yangmaster .fa:hover {
+#contacts .fa:hover {
   color: lightgray;
 }
 
