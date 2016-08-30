@@ -8,6 +8,7 @@ html {
   background: #303030;
   width: 100vw;
   height: 100vh;
+  color: pink;
 }
 
 @keyframes slash {
