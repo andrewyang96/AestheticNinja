@@ -11,7 +11,7 @@ window.onload = function () {
     ninja.style.display = 'none';
 
     var nonChromeWarning = document.getElementById('non-chrome-warning');
-    nonChromeWarning.style.display = 'default';
+    nonChromeWarning.style.display = 'inherit';
   } else {
     slashes.id = 'slashes';
     yangmaster.id = 'yangmaster';
