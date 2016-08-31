@@ -1,11 +1,12 @@
 window.onload = function () {
   // force preload
   var preloadImages = function () {
-    var img = new Image();
     for (var i = 1; i <= 5; i++) {
+      var img = new Image();
       img.src = './assets/img/a' + i + '.png';
     }
     for (var i = 1; i <= 7; i++) {
+      var img = new Image();
       img.src = './assets/img/b' + i + '.png';
     }
   };
