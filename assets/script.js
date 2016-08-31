@@ -1,4 +1,16 @@
 window.onload = function () {
+  // force preload
+  var preloadImages = function () {
+    var img = new Image();
+    for (var i = 1; i <= 5; i++) {
+      img.src = './assets/img/a' + i + '.png';
+    }
+    for (var i = 1; i <= 7; i++) {
+      img.src = './assets/img/b' + i + '.png';
+    }
+  };
+  preloadImages();
+
   var curtains = document.getElementById('curtains');
   var slashes = document.getElementById('slashes1');
   var yangmaster = document.getElementById('yangmaster1');
